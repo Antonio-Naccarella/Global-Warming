@@ -2,7 +2,7 @@
 
 ![GlobalWarming](src/assets/img/global-warming-screen.png "Screen of the app.")
 
-You can try here the app: [Link](https://globalwarming.netlify.app)
+You can try here the app: [Link](https://globallwarming.netlify.app)
 
 ## Description
 
