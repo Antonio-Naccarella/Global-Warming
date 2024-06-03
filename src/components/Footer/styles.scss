@@ -1,0 +1,21 @@
+footer {
+  margin-top: 100px;
+}
+.line {
+  width: 45%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+img {
+  width: 50px;
+  background-color: white;
+  border-radius: 20px;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap");
+
+$font: "Bebas Neue", sans-serif;
+
+body {
+  background-color: rgb(46, 44, 44);
+  color: white;
+  font-family: $font;
+  font-size: 1.2rem;
+}
+.text {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+
+  h1 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+}
+.chart-container {
+  width: 90%;
+  max-width: 850px;
+  height: 80vh;
+  max-height: 200px;
+  margin: 50px auto;
+  text-align: center;
+  color: black;
+
+  h1 {
+    color: white;
+  }
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all ease-in-out 200ms;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  background-color: white;
+
+  a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+
+  .card-img {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  &:hover {
+    transform: scale(0.9);
+    transition: all ease-in-out 200ms;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .card {
+    width: 25%;
+  }
+  .chart-container {
+    max-height: 350px;
+  }
+}

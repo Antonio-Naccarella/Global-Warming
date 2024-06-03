@@ -1,0 +1,37 @@
+nav {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  h1 {
+    font-size: 2rem;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: all ease-in 200ms;
+
+      &:hover {
+        text-decoration: underline;
+        color: rgb(253, 197, 68);
+        transition: all ease-in 200ms;
+      }
+    }
+  }
+}
+
+.charts {
+  display: none;
+}
+
+@media screen and (min-width: 890px) {
+  .charts {
+    display: flex;
+  }
+}
