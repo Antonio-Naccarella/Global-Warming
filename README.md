@@ -1,6 +1,6 @@
 # Global Warming
 
-![GlobalWarming](src/assets/image/global-warming-screen.png "Screen of the app.")
+![GlobalWarming](src/assets/img/global-warming-screen.png "Screen of the app.")
 
 You can try here the app: [Link](https://globalwarming.netlify.app)
 
